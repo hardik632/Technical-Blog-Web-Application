@@ -16,24 +16,27 @@ public class UserController {
 
     @Autowired
     private PostService postService;
+
     @RequestMapping("users/login")
     public  String login()
     {
         return "users/login";
     }
-    @RequestMapping("user/registration")
-    public String registration()
-    {
+
+    @RequestMapping("users/registration")
+    public String registration() {
         return "users/registration";
     }
-    @RequestMapping(value = "users/registration", method=RequestMethod.POST)
-    public String registerUser(User user) {
-        return "users/login";
-    }
+
     @RequestMapping(value="users/login", method = RequestMethod.POST)
     public String loginUser(User user)
     {
         return "redirect:/posts";
+    }
+
+    @RequestMapping(value = "users/registration", method=RequestMethod.POST)
+    public String registerUser(User user) {
+        return "users/login";
     }
 
     @RequestMapping(value="users/logout", method = RequestMethod.POST)
