@@ -11,15 +11,13 @@ import java.util.ArrayList;
 
 @Controller
 public class PostController {
-
     @Autowired
     private PostService postService;
-
     @RequestMapping("posts")
-    public String getUserPosts(Model model) {
-        ArrayList<Post> posts = postService.getOnePost();
-        model.addAttribute("posts", posts);
+    public String UserPosts(Model model)
+    {
+        ArrayList<Post> posts=postService.getOnePost();
+        model.addAttribute("posts",posts);
         return "posts";
     }
-
 }

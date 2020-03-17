@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="" />
+    <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +39,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZDSlbETb1SrUuQN4Fjj7870EBM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +60,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/Technical-Blogger-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -81,22 +112,34 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="38" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1584377935776" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1584380438664">
+    <state x="215" y="0" key="CommitChangelistDialog2" timestamp="1584426897599">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1584380438664" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1584380438664">
+    <state x="215" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584426897599" />
+    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1584426278644">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1584380438664" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1584380438664">
+    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1584426278644" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1584426897709">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1584380438664" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1584380438664">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1584426897709" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1584426897709">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1584380438664" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1584426897709" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1584426897709">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1584426897709" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1584426897709">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1584426897709" />
+    <state x="452" y="264" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584426871687">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="452" y="264" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1584426871687" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1584377269072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
