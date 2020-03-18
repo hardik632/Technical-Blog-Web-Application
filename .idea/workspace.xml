@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalBlog/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalBlog/service/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,22 +111,38 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1584426278644" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1584429493021">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom" timestamp="1584465583708">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1584429493021" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1584429493021">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1584465583708" />
+    <state width="1237" height="208" key="GridCell.Tab.0.center" timestamp="1584465583708">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1584429493021" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1584429493021">
+    <state width="1237" height="208" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1584465583708" />
+    <state width="1237" height="208" key="GridCell.Tab.0.left" timestamp="1584465583708">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1584429493021" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1584429493021">
+    <state width="1237" height="208" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1584465583708" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right" timestamp="1584465583708">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1584429493021" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1584465583708" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1584465583709">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1584465583709" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1584465583708">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1584465583708" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1584465583708">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1584465583708" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1584465583709">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1584465583709" />
     <state x="452" y="264" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584426871687">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
