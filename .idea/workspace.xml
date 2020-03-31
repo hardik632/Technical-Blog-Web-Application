@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="second commit" />
+    <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,22 +111,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1584426278644" />
-    <state width="1237" height="510" key="GridCell.Tab.0.bottom" timestamp="1585546020965">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1585587878493">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="510" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585546020965" />
-    <state width="1237" height="510" key="GridCell.Tab.0.center" timestamp="1585546020965">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585587878493" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1585587878492">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="510" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585546020965" />
-    <state width="1237" height="510" key="GridCell.Tab.0.left" timestamp="1585546020965">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585587878492" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1585587878492">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="510" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585546020965" />
-    <state width="1237" height="510" key="GridCell.Tab.0.right" timestamp="1585546020965">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585587878492" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1585587878493">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="510" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585546020965" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585587878493" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1584465583709">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
