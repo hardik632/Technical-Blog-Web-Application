@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!Doctype html>
 
 <html xmlns:th="http://thymeleaf.org">
 
@@ -7,6 +7,7 @@
 </head>
 
 <header th:replace="layout :: logged-in"></header>
+
 <body>
 <h1>Welcome User. These are your posts</h1>
 <main id="posts">
@@ -15,6 +16,12 @@
         <i>Posted On: </i> <span th:text="${p.date}"></span>
         <div>
             <p th:text="${p.body}"></p>
+        </div>
+        <div>
+            <a th:href="@{/editPost(postId=${p.id})}">Edit</a>
+            <form th:action="@{/deletePost(postId=${p.id})}" th:method="delete">
+                <input type="submit" value="Delete" />
+            </form>
         </div>
     </post>
 </main>

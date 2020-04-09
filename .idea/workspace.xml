@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/repository/PostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/repository/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proman" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -107,26 +115,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="215" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584426897599" />
-    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1584426278644">
+    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1586446622033">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1584426278644" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1585587878493">
+    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1586446622033" />
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1586338321997">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585587878493" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1585587878492">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586338321997" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1586338321996">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585587878492" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1585587878492">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586338321996" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1586338321996">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585587878492" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1585587878493">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586338321996" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1586338321997">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585587878493" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586338321997" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1584465583709">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -143,10 +151,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1584465583709" />
+    <state x="314" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586337827308">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="314" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1586337827308" />
     <state x="452" y="264" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584426871687">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="452" y="264" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1584426871687" />
+    <state x="91" y="40" key="new project wizard" timestamp="1586446610602">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="91" y="40" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1586446610602" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1584377269072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

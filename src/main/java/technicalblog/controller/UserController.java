@@ -10,6 +10,7 @@ import technicalBlog.model.User;
 import technicalBlog.service.PostService;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 public class UserController {
@@ -28,6 +29,7 @@ public class UserController {
         return "users/registration";
     }
 
+
     @RequestMapping(value="users/login", method = RequestMethod.POST)
     public String loginUser(User user)
     {
@@ -42,7 +44,7 @@ public class UserController {
     @RequestMapping(value="users/logout", method = RequestMethod.POST)
     public String logout(Model model)
     {
-        ArrayList<Post> posts=postService.getAllPosts();
+        List<Post> posts=postService.getAllPosts();
         model.addAttribute("posts",posts);
         return "index";
 

@@ -8,6 +8,7 @@ import technicalBlog.model.Post;
 import technicalBlog.service.PostService;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 public class HomeController {
@@ -18,7 +19,7 @@ public class HomeController {
     @RequestMapping("/")
     public String getAllPost(Model model)
     {
-        ArrayList<Post>posts=postService.getAllPosts();
+      List<Post> posts=postService.getAllPosts();
         model.addAttribute("posts",posts);
         return "index";
 
