@@ -3,18 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb386a4-7fec-4eca-916c-1e386552e55b" name="Default Changelist" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/TechnicalBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/TechnicalBlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/config/JpaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/controller/PostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/repository/PostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/technicalBlog/service/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/service/PostServiceTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/technicalblog/service/userService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/technicalblog/service/userService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,11 +64,11 @@
   </component>
   <component name="RunManager">
     <configuration name="TechnicalBlogApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="technicalBlog.TechnicalBlogApplication" />
+      <option name="MAIN_CLASS_NAME" value="technicalblog.TechnicalBlogApplication" />
       <module name="TechnicalBlogWebApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="technicalBlog.*" />
+          <option name="PATTERN" value="technicalblog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +103,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="360" y="3" key="#TechnicalBlogApplication/0.0.1280.689@0.0.1280.689" timestamp="1585201067937" />
+    <state x="371" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586501281443">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1586501281443" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585201040273">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -115,10 +123,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="215" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1584426897599" />
-    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1586446622033">
+    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1586531692684">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1586446622033" />
+    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1586531692684" />
     <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1586338321997">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -151,6 +159,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1584465583709" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1586501107216">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.689@0.0.1280.689" timestamp="1586501107216" />
     <state x="314" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586337827308">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

@@ -1,11 +1,10 @@
-package technicalBlog.service;
+package technicalblog.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import technicalBlog.model.Post;
-import technicalBlog.repository.PostRepository;
+import technicalblog.model.Post;
+import technicalblog.repository.PostRepository;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

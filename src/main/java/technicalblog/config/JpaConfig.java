@@ -1,4 +1,4 @@
-package technicalBlog.config;
+package technicalblog.config;
 
 
 import org.springframework.context.annotation.Bean;

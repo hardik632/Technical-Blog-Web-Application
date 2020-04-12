@@ -1,9 +1,6 @@
-package technicalBlog.repository;
+package technicalblog.repository;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Propagation;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.transaction.interceptor.TransactionAttribute;
-import technicalBlog.model.Post;
+import technicalblog.model.Post;
 
 import javax.persistence.*;
 import java.util.List;
